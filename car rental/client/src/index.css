@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+:root {
+  --primary-color: #a382ff;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Mulish", sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bs1 {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.bs2 {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+h1 {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  color: var(--primary-color) !important;
+}
+
+.header {
+  padding: 10px;
+}
+
+.content {
+  min-height: 9vh;
+}
+.car {
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 150px;
+  transition: 0.3s;
+}
+.car:hover {
+  height: 210px;
+}
+.car:hover > .car-content {
+  opacity: 1;
+  transform: translateY(-45px);
+}
+.carimg {
+  height: 180px;
+  width: 270px;
+  border-radius: 5px;
+  transform: translateY(-60px);
+  object-fit: cover;
+}
+.car-content {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+p {
+  text-align: left;
+  margin: 5px !important;
+  padding: 0;
+}
+
+.btn1 {
+  padding: 5px 10px !important;
+  box-shadow: none !important;
+  background-color: white !important;
+  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.btn1:hover{
+  color: white !important;
+  border: 1px solid white !important;
+  background-color: var(--primary-color) !important;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+}
+.login {
+  min-height: 100vh;
+}
+
+.login-form {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.lottie-car-div {
+  position: relative;
+}
+.home-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  font-size: 70px;
+  color: var(--primary-color);
+  font-weight: 500;
+  transform: translateX(-50%);
+}
+.home-subtitle{
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  transform: translateX(-50%);
+}
+.login a{
+  color: black !important;
+}
+.login a:hover{
+  color: rgb(78, 140, 228) !important;
+}
+.car-image-booking{
+  height: 400px;
+  border-radius: 10px;
+  width: 95%;
+  object-fit: cover;
+}
+
+.p-car-info{
+  text-align: right;
+}
+.booked-slots{
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 4px 10px;
+}
+
+
+
+
